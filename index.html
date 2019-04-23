@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link href="smrt_bootstrap.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="includes/fonta/css/smrt_all.min.css">
+
+
+    <link rel="stylesheet" href="style.css">
+    <style>*{margin: 0%;padding: 0%;justify-content: center;align-items: center;text-decoration: none;}</style>
+
+    <title>SMRT_ALERTA</title>
+</head>
+
+        <body> 
+<!-- _________________________________Primera alerta: CARGA DE CURSO____________________________ -->
+<div class="mx-auto smrt_jumboTitule smrt_colorAlert_green"><strong>1 - NUEVO CURSO (600x449)</strong></div>
+
+<div class="container smrt_cajaBase smrt_colorAlert_green">
+        <div class="row justify-content-start">
+                <div class="smrt_segmento1  col-md-4">
+                        <div class="row align-items-start">
+                                <h1><i class="fas fa-bullhorn icono_cajaBase "></i></h1>
+                                <h2 class="smrt_mensaje ">¡ALERTA!</h2>                                   
+                        </div>
+                </div>
+                <div class="titule2 col-md-8">
+                        <div class="row">
+                                <h3 class="col-md-12 smrt_ordena_titulo"><strong>{title}</strong></h3>                                   
+                                        <div>
+                                                <p class="col-md-12 smrt_parrafo_cajaBase smrt_esp">
+                                                        Hola {FIRSTNAME}.
+                                                </p>
+                                                <p class="col-md-12 smrt_parrafo_cajaBase">
+                                                        Ya puedes encontrar el curso e-learning:
+                                                </p>
+                                        </div>
+                                        <div>
+                                                <ul class="smrt_cursoName">
+                                                        <strong><li><span>{curso}</span></li></strong>
+                                                </ul>
+                                        </div>
+                                <div>
+				<p class="col-md-12 smrt_parrafo_cajaBase">
+				Puedes acceder desde el botón verde inferior.  
+				</p>
+	
+				<p class="col-md-12 smrt_parrafo_cajaBase">
+				¿Qué esperas para aprender algo nuevo?  
+				</p>
+
+				<p class="col-md-12 smrt_parrafo_cajaBase"> 
+				Si tienes dudas, contáctame a través del botón naranja de Soporte.
+				</p>
+
+				<p class="col-md-12 smrt_parrafo_cajaBase">
+				¡Nos vemos! 
+				</p>
+                                </div>
+                        </div>
+                                <div class="smrt_boton_cajaBase">
+                                        <a href="{link}" target="_blank"  class="smrt_btn_color"><strong>Realizar E Learning</strong> 
+                                        </a>
+				</div>
+
+				<div class="smrt_logo">
+					<img src="data:image/png;base64,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" alt="">
+				</div>
+				
+				<div class="smrt_esquinaPop"></div>
+				
+				
+                </div>
+     
+        </div>
+</div>
+            
+<!-- _________________________________Segunda alerta: VENCIMIENTO DE CURSO EN 3 SEMANAS__________________________________ -->
+
+<div class="mx-auto smrt_jumboTitule smrt_colorAlert_green"><strong>2 - CURSO PENDIENTE (600x377)</strong></div>
+
+
+
+
+<div class="container smrt_cajaBase smrt_colorAlert_green">
+                <div class="row justify-content-start">
+                    <div class="smrt_segmento1  col-md-4">
+                            <div class="row align-items-start">
+                                <h1><i class="fas fa-bullhorn icono_cajaBase "></i></h1>
+                                <h2 class="smrt_mensaje ">¡ALERTA!</h2>                                
+                            </div>
+                    </div>
+                    <div class="titule2 col-md-8 ">
+                            <div class="row">
+                            <h3 class="col-md-12 smrt_ordena_titulo"><strong>{title}</strong></h3>                               
+                                    <div>
+                                            <p class="col-md-12 smrt_parrafo_cajaBase smrt_esp">
+                                                    Hola {FIRSTNAME}, recuerda revisar el curso e-learning: 
+                                            </p>
+                                    </div>
+                                    <div>
+                                            <ul class="smrt_cursoName">
+                                                    <strong><li><span>{curso}</span></li></strong>
+                                            </ul>
+                                    </div>
+                                    <div>
+                                            <p class="col-md-12 smrt_parrafo_cajaBase">
+                                            Puedes acceder desde el botón verde inferior.  
+                                            </p>            
+                                            <p class="col-md-12 smrt_parrafo_cajaBase"> 
+                                            Si tienes dudas, contáctame a través del botón naranja de Soporte.
+                                            </p>
+                                            <p class="col-md-12 smrt_parrafo_cajaBase">
+                                            ¡Nos vemos! 
+                                            </p>
+                                    </div>
+                            </div>
+                            <div class="smrt_boton_cajaBase">
+                                    <a href="{link}" target="_blank"  class="smrt_btn_color"><strong>Realizar E Learning</strong> 
+                                    </a>
+			    </div>
+			    <div class="smrt_logo">
+					<img src="data:image/png;base64,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" alt="">
+				</div>
+					
+                            <div class="smrt_esquinaPop"></div>
+                    </div> 
+                </div>
+        </div>
+<!-- _________________________________ Tercera alerta: VENCIMIENTO DE CURSO EN 2 SEMANAS__________________________________ -->
+
+<div class="mx-auto smrt_jumboTitule smrt_colorAlert_green"><strong>3 - TE QUEDAN 2 SEMANAS PARA REVISAR EL CURSO (600x397)</strong></div>
+
+
+<div class="container smrt_cajaBase smrt_colorAlert_green">
+                <div class="row justify-content-start">
+                    <div class="smrt_segmento1  col-md-4">
+                            <div class="row align-items-start">
+                                <h1><i class="fas fa-bullhorn icono_cajaBase "></i></h1>
+                                <h2 class="smrt_mensaje ">¡ALERTA!</h2>                                
+                            </div>
+                    </div>
+                    <div class="titule2 col-md-8 ">
+                            <div class="row">
+                            <h3 class="col-md-12 smrt_ordena_titulo"><strong>{title}</strong></h3>                               
+                                    <div>
+                                            <p class="col-md-12 smrt_parrafo_cajaBase smrt_esp">
+                                                    Hola {FIRSTNAME}, aún tienes tiempo para revisar el curso e-learning: 
+                                            </p>
+                                    </div>
+                                    <div>
+                                            <ul class="smrt_cursoName">
+                                                    <strong><li><span>{curso}</span></li></strong>
+                                            </ul>
+                                    </div>
+                                    <div>
+                                            <p class="col-md-12 smrt_parrafo_cajaBase">
+                                            Puedes acceder desde el botón verde inferior.  
+                                            </p>            
+                                            <p class="col-md-12 smrt_parrafo_cajaBase"> 
+                                            Si tienes dudas, contáctame a través del botón naranja de Soporte.
+                                            </p>
+                                            <p class="col-md-12 smrt_parrafo_cajaBase">
+                                            ¡Nos vemos! 
+                                            </p>
+                                    </div>
+                            </div>
+                            <div class="smrt_boton_cajaBase">
+                                    <a href="{link}" target="_blank"  class="smrt_btn_color"><strong>Realizar E Learning</strong> 
+                                    </a>
+			    </div>
+			    
+				<div class="smrt_logo">
+						<img src="data:image/png;base64,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" alt="">
+				</div>
+					
+                            <div class="smrt_esquinaPop"></div>
+                    </div> 
+               </div>
+</div>
+<!-- _________________________________ Cuarta alerta: VENCIMIENTO DE CURSO EN 1 SEMANA __________________________________ -->
+
+<div class="mx-auto smrt_jumboTitule smrt_colorAlert_red"><strong>4 - TE QUEDAN 1 SEMANA PARA REVISAR EL CURSO (600x397)</strong></div>
+
+
+
+<div class="container smrt_cajaBase smrt_colorAlert_red">
+		<div class="row justify-content-start">
+			<div class="smrt_segmento1  col-md-4">
+					<div class="row align-items-start">
+						<h1><i class="fas fa-exclamation-triangle icono_cajaBase moveRotate"></i></h1>
+						<h2 class="smrt_mensaje ">¡ALERTA!</h2>                                
+					</div>
+			</div>
+			<div class="titule2 col-md-8 ">
+					<div class="row">
+					<h3 class="col-md-12 smrt_ordena_titulo"><strong>{title}</strong></h3>                               
+							<div>
+									<p class="col-md-12 smrt_parrafo_cajaBase smrt_esp">
+											Hola {FIRSTNAME}, solo queda una semana para revisar el curso e-learning: 
+									</p>
+							</div>
+							<div>
+									<ul class="smrt_cursoName">
+											<strong><li><span>{curso}</span></li></strong>
+									</ul>
+							</div>
+							<div>
+									<p class="col-md-12 smrt_parrafo_cajaBase">
+									Puedes acceder desde el botón verde inferior.  
+									</p>            
+									<p class="col-md-12 smrt_parrafo_cajaBase"> 
+									Si tienes dudas, contáctame a través del botón naranja de Soporte.
+									</p>
+									<p class="col-md-12 smrt_parrafo_cajaBase">
+									¡Nos vemos! 
+									</p>
+							</div>
+					</div>
+					<div class="smrt_boton_cajaBase">
+							<a href="{link}" target="_blank"  class="smrt_btn_color"><strong>Realizar E Learning</strong> 
+							</a>
+					</div>
+					
+				<div class="smrt_logo">
+						<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAABCCAYAAAFoRhu0AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAACA1JREFUeNpiYCAHHL7G8B+E//79C6aR5Ziwabj4wAhDDKvCrz8vEqcQGyBaIQsy58rB6Y5Aqh6IFYB4IQNDJlyOEeZbbKbYakHk4Qqhih2gzA9AHADEB5A0HAAIIKLcx4ge2NisZCIr2kBR9vzdPPxR9vhtE8OdF0n4A/fxm0b81k2fPv08Gn8/2HdoAQoKpwdAnxkii4OiyBFZEVDBBSjbERSQQMUNAAHEiM+nuOSQw5Cs1GOl/pfypCgrUs9grHQXHNQUGwaKCnZWBcJRQoxhIFcdu8nMQHfAiJZY7mdmZipCE00hNIc+ABUmQHwBKHcBlMCAtCFUvQCIBvI/EMy5QNAINRAEBIF4PRDDMu4CaDJJhOo3BAgg2nmTbolWUjCftGIRX/I4e0+ZOoUxKNFSpWQHZSdkmuLsBCr+ZIXrqOOyVx8XEpWlCBtGhIuINuzPvw/UM+zUbWGGgQXAEmA+cjVDpJ77uLzZCK2/QMWMAXodBqQb0A0AFVcoGR3aFtgPrcr2gzIxNJM7QsVBZRdyJQkqit5D2ROAuACW+ZnwlAywBgZKYwPJIAaoQQuQvQmqTAWhmmEVrSDUxY1AcZD3FkKLHUcYDXUxiN4IdS0DQAAxktMMISeCcZWBFDcHSQE6svuIagBQXM4SC/i57Bm0gY6iRpVN1RADOerdl41UMYuJmqEFAjeeBg0uh4FCC1vnZ0AdxsIkgNJ942bXHxwOM1N9i1J9USPkmKgVWtSuCikqLkDNNWZmAZq06MlxGLx+IqYNOTIAUpviP4wPxA5QtgOUPx9dDkk+AZmPyw6YGUMKMCINquxHajgdQOqvgZsraA0rXPIfoH2/fmh7KAFbKwN9yAVJ70Ro0wizuAApBGLkQQvkvkg8lJ6ILI80WiQAdRQDtLeL3FHF2mwC8tcj6YXbBRCAXWvJSSAIooS4NCouSHQ1nECMB2DwAoQTIEt23AC8gL8LOJ5Aj4AXkHHhnsREl4ALo3Gh/UjV+NKOCpkWmsROyPSH6a6uqq6uejX+ivGvnUQvHESvfDC9tOGxZvFaV1wTtBPcZL6SnHIKBCFM90580wCEcyNqc7U2eb6+DfwhansKaGvuRK2ZQOPp+XrxDqBiUFpejOjQhgizKLwTiw787ye8eSEWnUE2xItZw30nRBXXG8mpGxu9urvf90PRH4ZnSX2cUeGdEfU4PPXHJGw5tE/OiCoVj5xYcefiux3s+UEUOISjj0zALFD50rrDmcL5/+IrttC12mEK7hCmjQFXIEzi3JrnnertWU9fzyKsTEkW1IetVquXMoZSoXrwzaYR1iNxczwLUR0K01FqFJJHhqACEcJjSEY36TA0kRUiVEb7G7KpYOnQF9v2cPackZbEdpofJ9Y4rZUT5OVCkJqRgCIdQVrA4T4hL23iND4TKeV/sUGHjJrkPtNeLA7Ou9WtcUVUGOu+JEMc0uYjmeuLToUpusV9WOxEsKRYxvqqG6b/SjjDRT8oYuWPicCq/OdAuZ1PwafsK6FitdtmhxALn7hdUgNwht2GOnFGiSsTF/vyzOl7es1UrYUjEuXIekl3qunQrixYkL4YHDPtDZk3Fh0MZC79Yiiw5oI+TdTjQ4B2rma3aSAImwOCYxAXBEKkEgeO5Q3sJ6B9AsIxF4h5gQAvQDjlRpMXgOYJ4j5BEol7I3GrkKCVEBzxZ75JhmEdOdRuNsEjWUqyf7Pj2dndmW9yreqVpDx9lVNhnJkP3qAcGl+1lauKvHQyriJceSVMetXkvbBwDUfwERcDeFG+/5xd+tbr8zL8ZwJOAj4w3Jw2gibcFs16eOd9Jqhsqzt76QVPXgoLvkIsPxC0qgxv/c4K6+6t54vPn7+88YYvL4WlHXRleg633sDDNt1UEN0b1x8sPsN5CCOv6dMlndJbLSybMIFjghCcmmX7EHdmGcKoC3YKy08LChr46N6HUpBnO3HO0rZKh14gINkdgYYrE0u4lcLCFUa0BkcFHeyAcOpDqaL7t7te7oDeCQsaJad1hPc3tcy2QlgadnB6Fnt7V924sGC4BVoDvI+vWrVxA4/jgOxygPCXlV+wU8KSZXfx4yTzKPh08PROWEVSZmuq6f+hwtGQfr8P1wBwAeIimLfb7UiVI26rA4kx07bxmw7NzxlBz2s3TMsHqqyZfj/k97EZE7wgGtrgE0tbV33+1gp+R/5HaVmvqqMDBPWaSaKYrDU8mDDuKCecsIR2Ja8dTGPSoUnysO0GpmykklRDB08Q0B7gDabtX/WZY/+WvDw1uIxSDfycgyfATBBtYjVzqEAiLjqgZiVrtMO4kU0Ltjyt8cKPCXRJ+P1xbWCqtFnEj7hgP5K9AxyArHdLwBHEBEDktlfjdIMlIgPlQG0g22hOLEKH44h9nLKPQQ6v74hj+IM/nVSUlml7m9lU9c8oAfEyL8yYI8FM2GXYcNiExfJJO8OEZqZOssJGTJXh1u27pj3qNCmoV4E7ewl1jjjhyDFWmJbBWJ+75pCWQbAt8zM2hj2WTxSv34IlDGdY5t0w5HNeoO4sWOJ5dHu8pH2iV7SgegrSo9vlpYJ1XGUEpnQcL7hJ4Qemf600T4oKa8qOsesBjnPoqBPxOc7RhgWDSp0loa9nGGyZfoBrmqTPqenLdYF8tmIeH1dof0thoKbsJzEau19kN4wLQHjG6m1FDkGKncCgX7l7uRIFewpPdcB2DSOkbDKwMw4YE/oFDmui7RKTExuGJ9HO0CHMI2NrI23XalqDfgGLPkm74B1EYAAAAABJRU5ErkJggg==" alt="">
+				</div>
+					
+					<div class="smrt_esquinaPop"></div>
+			</div> 
+		</div>
+</div>
+<!-- _________________________________ Quita alerta: VENCIMIENTO DE CURSO EN 2 DIAS _________________________________ -->
+<div class="mx-auto smrt_jumboTitule smrt_colorAlert_red"><strong>5 - TE QUEDAN 3 DÍAS PARA REVISAR EL CURSO (600x397)</strong></div>
+
+
+
+<div class="container smrt_cajaBase smrt_colorAlert_red">
+		<div class="row justify-content-start">
+			<div class="smrt_segmento1  col-md-4">
+					<div class="row align-items-start">
+						<h1><i class="fas fa-exclamation-triangle icono_cajaBase moveRotate "></i></h1>
+						<h2 class="smrt_mensaje ">¡ALERTA!</h2>                                
+					</div>
+			</div>
+			<div class="titule2 col-md-8 ">
+					<div class="row">
+					<h3 class="col-md-12 smrt_ordena_titulo"><strong>{title}</strong></h3>                               
+							<div>
+									<p class="col-md-12 smrt_parrafo_cajaBase smrt_esp">
+											Hola {FIRSTNAME}, queda poco tiempo para revisar el curso e-learning: 
+									</p>
+							</div>
+							<div>
+									<ul class="smrt_cursoName">
+											<strong><li><span>{curso}</span></li></strong>
+									</ul>
+							</div>
+							<div>
+									<p class="col-md-12 smrt_parrafo_cajaBase">
+									Puedes acceder desde el botón verde inferior.  
+									</p>            
+									<p class="col-md-12 smrt_parrafo_cajaBase"> 
+									Si tienes dudas, contáctame a través del botón naranja de Soporte.
+									</p>
+									<p class="col-md-12 smrt_parrafo_cajaBase">
+									¡Nos vemos! 
+									</p>
+							</div>
+					</div>
+					<div class="smrt_boton_cajaBase">
+							<a href="{link}" target="_blank"  class="smrt_btn_color"><strong>Realizar E Learning</strong> 
+							</a>
+					</div>
+					
+				<div class="smrt_logo">
+						<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAABCCAYAAAFoRhu0AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAACA1JREFUeNpiYCAHHL7G8B+E//79C6aR5Ziwabj4wAhDDKvCrz8vEqcQGyBaIQsy58rB6Y5Aqh6IFYB4IQNDJlyOEeZbbKbYakHk4Qqhih2gzA9AHADEB5A0HAAIIKLcx4ge2NisZCIr2kBR9vzdPPxR9vhtE8OdF0n4A/fxm0b81k2fPv08Gn8/2HdoAQoKpwdAnxkii4OiyBFZEVDBBSjbERSQQMUNAAHEiM+nuOSQw5Cs1GOl/pfypCgrUs9grHQXHNQUGwaKCnZWBcJRQoxhIFcdu8nMQHfAiJZY7mdmZipCE00hNIc+ABUmQHwBKHcBlMCAtCFUvQCIBvI/EMy5QNAINRAEBIF4PRDDMu4CaDJJhOo3BAgg2nmTbolWUjCftGIRX/I4e0+ZOoUxKNFSpWQHZSdkmuLsBCr+ZIXrqOOyVx8XEpWlCBtGhIuINuzPvw/UM+zUbWGGgQXAEmA+cjVDpJ77uLzZCK2/QMWMAXodBqQb0A0AFVcoGR3aFtgPrcr2gzIxNJM7QsVBZRdyJQkqit5D2ROAuACW+ZnwlAywBgZKYwPJIAaoQQuQvQmqTAWhmmEVrSDUxY1AcZD3FkKLHUcYDXUxiN4IdS0DQAAxktMMISeCcZWBFDcHSQE6svuIagBQXM4SC/i57Bm0gY6iRpVN1RADOerdl41UMYuJmqEFAjeeBg0uh4FCC1vnZ0AdxsIkgNJ942bXHxwOM1N9i1J9USPkmKgVWtSuCikqLkDNNWZmAZq06MlxGLx+IqYNOTIAUpviP4wPxA5QtgOUPx9dDkk+AZmPyw6YGUMKMCINquxHajgdQOqvgZsraA0rXPIfoH2/fmh7KAFbKwN9yAVJ70Ro0wizuAApBGLkQQvkvkg8lJ6ILI80WiQAdRQDtLeL3FHF2mwC8tcj6YXbBRCAXWvJSSAIooS4NCouSHQ1nECMB2DwAoQTIEt23AC8gL8LOJ5Aj4AXkHHhnsREl4ALo3Gh/UjV+NKOCpkWmsROyPSH6a6uqq6uejX+ivGvnUQvHESvfDC9tOGxZvFaV1wTtBPcZL6SnHIKBCFM90580wCEcyNqc7U2eb6+DfwhansKaGvuRK2ZQOPp+XrxDqBiUFpejOjQhgizKLwTiw787ye8eSEWnUE2xItZw30nRBXXG8mpGxu9urvf90PRH4ZnSX2cUeGdEfU4PPXHJGw5tE/OiCoVj5xYcefiux3s+UEUOISjj0zALFD50rrDmcL5/+IrttC12mEK7hCmjQFXIEzi3JrnnertWU9fzyKsTEkW1IetVquXMoZSoXrwzaYR1iNxczwLUR0K01FqFJJHhqACEcJjSEY36TA0kRUiVEb7G7KpYOnQF9v2cPackZbEdpofJ9Y4rZUT5OVCkJqRgCIdQVrA4T4hL23iND4TKeV/sUGHjJrkPtNeLA7Ou9WtcUVUGOu+JEMc0uYjmeuLToUpusV9WOxEsKRYxvqqG6b/SjjDRT8oYuWPicCq/OdAuZ1PwafsK6FitdtmhxALn7hdUgNwht2GOnFGiSsTF/vyzOl7es1UrYUjEuXIekl3qunQrixYkL4YHDPtDZk3Fh0MZC79Yiiw5oI+TdTjQ4B2rma3aSAImwOCYxAXBEKkEgeO5Q3sJ6B9AsIxF4h5gQAvQDjlRpMXgOYJ4j5BEol7I3GrkKCVEBzxZ75JhmEdOdRuNsEjWUqyf7Pj2dndmW9yreqVpDx9lVNhnJkP3qAcGl+1lauKvHQyriJceSVMetXkvbBwDUfwERcDeFG+/5xd+tbr8zL8ZwJOAj4w3Jw2gibcFs16eOd9Jqhsqzt76QVPXgoLvkIsPxC0qgxv/c4K6+6t54vPn7+88YYvL4WlHXRleg633sDDNt1UEN0b1x8sPsN5CCOv6dMlndJbLSybMIFjghCcmmX7EHdmGcKoC3YKy08LChr46N6HUpBnO3HO0rZKh14gINkdgYYrE0u4lcLCFUa0BkcFHeyAcOpDqaL7t7te7oDeCQsaJad1hPc3tcy2QlgadnB6Fnt7V924sGC4BVoDvI+vWrVxA4/jgOxygPCXlV+wU8KSZXfx4yTzKPh08PROWEVSZmuq6f+hwtGQfr8P1wBwAeIimLfb7UiVI26rA4kx07bxmw7NzxlBz2s3TMsHqqyZfj/k97EZE7wgGtrgE0tbV33+1gp+R/5HaVmvqqMDBPWaSaKYrDU8mDDuKCecsIR2Ja8dTGPSoUnysO0GpmykklRDB08Q0B7gDabtX/WZY/+WvDw1uIxSDfycgyfATBBtYjVzqEAiLjqgZiVrtMO4kU0Ltjyt8cKPCXRJ+P1xbWCqtFnEj7hgP5K9AxyArHdLwBHEBEDktlfjdIMlIgPlQG0g22hOLEKH44h9nLKPQQ6v74hj+IM/nVSUlml7m9lU9c8oAfEyL8yYI8FM2GXYcNiExfJJO8OEZqZOssJGTJXh1u27pj3qNCmoV4E7ewl1jjjhyDFWmJbBWJ+75pCWQbAt8zM2hj2WTxSv34IlDGdY5t0w5HNeoO4sWOJ5dHu8pH2iV7SgegrSo9vlpYJ1XGUEpnQcL7hJ4Qemf600T4oKa8qOsesBjnPoqBPxOc7RhgWDSp0loa9nGGyZfoBrmqTPqenLdYF8tmIeH1dof0thoKbsJzEau19kN4wLQHjG6m1FDkGKncCgX7l7uRIFewpPdcB2DSOkbDKwMw4YE/oFDmui7RKTExuGJ9HO0CHMI2NrI23XalqDfgGLPkm74B1EYAAAAABJRU5ErkJggg==" alt="">
+				</div>
+					
+					<div class="smrt_esquinaPop"></div>
+			</div> 
+		</div>
+</div>
+<!-- _________________________________ Sexta alerta: VENCIMIENTO DE CURSO EN 1 DIA __________________________________ -->
+<div class="mx-auto smrt_jumboTitule smrt_colorAlert_red"><strong>6 - TE QUEDA HOY Y MAÑANA DE PLAZO PARA REVISAR  EL CURSO (600x397)</strong></div>
+
+
+
+<div class="container smrt_cajaBase smrt_colorAlert_red">
+		<div class="row justify-content-start">
+			<div class="smrt_segmento1  col-md-4">
+					<div class="row align-items-start">
+						<h1><i class="fas fa-exclamation-triangle icono_cajaBase moveRotate "></i></h1>
+						<h2 class="smrt_mensaje ">¡ALERTA!</h2>                                
+					</div>
+			</div>
+			<div class="titule2 col-md-8 ">
+					<div class="row">
+					<h3 class="col-md-12 smrt_ordena_titulo"><strong>{title}</strong></h3>                               
+							<div>
+									<p class="col-md-12 smrt_parrafo_cajaBase smrt_esp">
+											Hola {FIRSTNAME}, queda un día para revisar el curso e-learning: 
+									</p>
+							</div>
+							<div>
+									<ul class="smrt_cursoName">
+											<strong><li><span>{curso}</span></li></strong>
+									</ul>
+							</div>
+							<div>
+									<p class="col-md-12 smrt_parrafo_cajaBase">
+									Puedes acceder desde el botón verde inferior.  
+									</p>            
+									<p class="col-md-12 smrt_parrafo_cajaBase"> 
+									Si tienes dudas, contáctame a través del botón naranja de Soporte.
+									</p>
+									<p class="col-md-12 smrt_parrafo_cajaBase">
+									¡Nos vemos! 
+									</p>
+							</div>
+					</div>
+					<div class="smrt_boton_cajaBase">
+							<a href="{link}" target="_blank"  class="smrt_btn_color"><strong>Realizar E Learning</strong> 
+							</a>
+					</div>
+					
+				<div class="smrt_logo">
+						<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAABCCAYAAAFoRhu0AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAACA1JREFUeNpiYCAHHL7G8B+E//79C6aR5Ziwabj4wAhDDKvCrz8vEqcQGyBaIQsy58rB6Y5Aqh6IFYB4IQNDJlyOEeZbbKbYakHk4Qqhih2gzA9AHADEB5A0HAAIIKLcx4ge2NisZCIr2kBR9vzdPPxR9vhtE8OdF0n4A/fxm0b81k2fPv08Gn8/2HdoAQoKpwdAnxkii4OiyBFZEVDBBSjbERSQQMUNAAHEiM+nuOSQw5Cs1GOl/pfypCgrUs9grHQXHNQUGwaKCnZWBcJRQoxhIFcdu8nMQHfAiJZY7mdmZipCE00hNIc+ABUmQHwBKHcBlMCAtCFUvQCIBvI/EMy5QNAINRAEBIF4PRDDMu4CaDJJhOo3BAgg2nmTbolWUjCftGIRX/I4e0+ZOoUxKNFSpWQHZSdkmuLsBCr+ZIXrqOOyVx8XEpWlCBtGhIuINuzPvw/UM+zUbWGGgQXAEmA+cjVDpJ77uLzZCK2/QMWMAXodBqQb0A0AFVcoGR3aFtgPrcr2gzIxNJM7QsVBZRdyJQkqit5D2ROAuACW+ZnwlAywBgZKYwPJIAaoQQuQvQmqTAWhmmEVrSDUxY1AcZD3FkKLHUcYDXUxiN4IdS0DQAAxktMMISeCcZWBFDcHSQE6svuIagBQXM4SC/i57Bm0gY6iRpVN1RADOerdl41UMYuJmqEFAjeeBg0uh4FCC1vnZ0AdxsIkgNJ942bXHxwOM1N9i1J9USPkmKgVWtSuCikqLkDNNWZmAZq06MlxGLx+IqYNOTIAUpviP4wPxA5QtgOUPx9dDkk+AZmPyw6YGUMKMCINquxHajgdQOqvgZsraA0rXPIfoH2/fmh7KAFbKwN9yAVJ70Ro0wizuAApBGLkQQvkvkg8lJ6ILI80WiQAdRQDtLeL3FHF2mwC8tcj6YXbBRCAXWvJSSAIooS4NCouSHQ1nECMB2DwAoQTIEt23AC8gL8LOJ5Aj4AXkHHhnsREl4ALo3Gh/UjV+NKOCpkWmsROyPSH6a6uqq6uejX+ivGvnUQvHESvfDC9tOGxZvFaV1wTtBPcZL6SnHIKBCFM90580wCEcyNqc7U2eb6+DfwhansKaGvuRK2ZQOPp+XrxDqBiUFpejOjQhgizKLwTiw787ye8eSEWnUE2xItZw30nRBXXG8mpGxu9urvf90PRH4ZnSX2cUeGdEfU4PPXHJGw5tE/OiCoVj5xYcefiux3s+UEUOISjj0zALFD50rrDmcL5/+IrttC12mEK7hCmjQFXIEzi3JrnnertWU9fzyKsTEkW1IetVquXMoZSoXrwzaYR1iNxczwLUR0K01FqFJJHhqACEcJjSEY36TA0kRUiVEb7G7KpYOnQF9v2cPackZbEdpofJ9Y4rZUT5OVCkJqRgCIdQVrA4T4hL23iND4TKeV/sUGHjJrkPtNeLA7Ou9WtcUVUGOu+JEMc0uYjmeuLToUpusV9WOxEsKRYxvqqG6b/SjjDRT8oYuWPicCq/OdAuZ1PwafsK6FitdtmhxALn7hdUgNwht2GOnFGiSsTF/vyzOl7es1UrYUjEuXIekl3qunQrixYkL4YHDPtDZk3Fh0MZC79Yiiw5oI+TdTjQ4B2rma3aSAImwOCYxAXBEKkEgeO5Q3sJ6B9AsIxF4h5gQAvQDjlRpMXgOYJ4j5BEol7I3GrkKCVEBzxZ75JhmEdOdRuNsEjWUqyf7Pj2dndmW9yreqVpDx9lVNhnJkP3qAcGl+1lauKvHQyriJceSVMetXkvbBwDUfwERcDeFG+/5xd+tbr8zL8ZwJOAj4w3Jw2gibcFs16eOd9Jqhsqzt76QVPXgoLvkIsPxC0qgxv/c4K6+6t54vPn7+88YYvL4WlHXRleg633sDDNt1UEN0b1x8sPsN5CCOv6dMlndJbLSybMIFjghCcmmX7EHdmGcKoC3YKy08LChr46N6HUpBnO3HO0rZKh14gINkdgYYrE0u4lcLCFUa0BkcFHeyAcOpDqaL7t7te7oDeCQsaJad1hPc3tcy2QlgadnB6Fnt7V924sGC4BVoDvI+vWrVxA4/jgOxygPCXlV+wU8KSZXfx4yTzKPh08PROWEVSZmuq6f+hwtGQfr8P1wBwAeIimLfb7UiVI26rA4kx07bxmw7NzxlBz2s3TMsHqqyZfj/k97EZE7wgGtrgE0tbV33+1gp+R/5HaVmvqqMDBPWaSaKYrDU8mDDuKCecsIR2Ja8dTGPSoUnysO0GpmykklRDB08Q0B7gDabtX/WZY/+WvDw1uIxSDfycgyfATBBtYjVzqEAiLjqgZiVrtMO4kU0Ltjyt8cKPCXRJ+P1xbWCqtFnEj7hgP5K9AxyArHdLwBHEBEDktlfjdIMlIgPlQG0g22hOLEKH44h9nLKPQQ6v74hj+IM/nVSUlml7m9lU9c8oAfEyL8yYI8FM2GXYcNiExfJJO8OEZqZOssJGTJXh1u27pj3qNCmoV4E7ewl1jjjhyDFWmJbBWJ+75pCWQbAt8zM2hj2WTxSv34IlDGdY5t0w5HNeoO4sWOJ5dHu8pH2iV7SgegrSo9vlpYJ1XGUEpnQcL7hJ4Qemf600T4oKa8qOsesBjnPoqBPxOc7RhgWDSp0loa9nGGyZfoBrmqTPqenLdYF8tmIeH1dof0thoKbsJzEau19kN4wLQHjG6m1FDkGKncCgX7l7uRIFewpPdcB2DSOkbDKwMw4YE/oFDmui7RKTExuGJ9HO0CHMI2NrI23XalqDfgGLPkm74B1EYAAAAABJRU5ErkJggg==" alt="">
+					</div>
+					
+					<div class="smrt_esquinaPop"></div>
+			</div> 
+		</div>
+</div>
+<!-- _________________________________ Septima alerta: VENCIMIENTO DE CURSO EN EL DIA  __________________________________ -->
+<div class="mx-auto smrt_jumboTitule smrt_colorAlert_red"><strong>7 - SOLO DISPONES DE HOY DÍA PARA REVISAR EL  CURSO (600x397)</strong></div>
+
+
+
+<div class="container smrt_cajaBase smrt_colorAlert_red">
+		<div class="row justify-content-start">
+			<div class="smrt_segmento1  col-md-4">
+					<div class="row align-items-start">
+						<h1><i class="fas fa-exclamation-triangle icono_cajaBase moveRotate "></i></h1>
+						<h2 class="smrt_mensaje ">¡ALERTA!</h2>                                
+					</div>
+			</div>
+			<div class="titule2 col-md-8 ">
+					<div class="row">
+					<h3 class="col-md-12 smrt_ordena_titulo"><strong>{title}</strong></h3>                               
+							<div>
+									<p class="col-md-12 smrt_parrafo_cajaBase smrt_esp">
+											Hola {FIRSTNAME}, hoy es el último plazo para revisar el curso e-learning: 
+									</p>
+							</div>
+							<div>
+									<ul class="smrt_cursoName">
+											<strong><li><span>{curso}</span></li></strong>
+									</ul>
+							</div>
+							<div>
+									<p class="col-md-12 smrt_parrafo_cajaBase">
+									Puedes acceder desde el botón verde inferior.  
+									</p>            
+									<p class="col-md-12 smrt_parrafo_cajaBase"> 
+									Si tienes dudas, contáctame a través del botón naranja de Soporte.
+									</p>
+									<p class="col-md-12 smrt_parrafo_cajaBase">
+									¡Nos vemos! 
+									</p>
+							</div>
+					</div>
+					<div class="smrt_boton_cajaBase">
+							<a href="{link}" target="_blank"  class="smrt_btn_color"><strong>Realizar E Learning</strong> 
+							</a>
+					</div>
+					
+				<div class="smrt_logo">
+						<img src="data:image/png;base64,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" alt="">
+				</div>
+					
+					<div class="smrt_esquinaPop"></div>
+			</div> 
+		</div>
+</div>
+<!-- _________________________________ Octava alerta: REALIZACION DEL CURSO __________________________________ -->
+<div class="mx-auto smrt_jumboTitule smrt_colorAlert_green"><strong>8 - FELICITACIONES CURSO TERMINADO (600x361)</strong></div>
+
+
+<div class="container smrt_cajaBase smrt_colorAlert_green">
+        <div class="row justify-content-start">
+                <div class="smrt_segmento1  col-md-4">
+                        <div class="row align-items-start">
+                                <h1><i class="fa fa-thumbs-up icono_cajaBase "></i></h1>
+                                <h2 class="smrt_mensaje ">¡ALERTA!</h2>                                   
+                        </div>
+                </div>
+                <div class="titule2 col-md-8 ">
+                        <div class="row">
+                                <h3 class="col-md-12 smrt_ordena_titulo"><strong>{title}</strong></h3>                                   
+                                        <div>
+                                                <p class="col-md-12 smrt_parrafo_cajaBase smrt_esp">
+                                                        Hola {FIRSTNAME}. Felitaciones por finalizar el curso de nuestra  plataforma:
+                                                </p>
+                                        </div>
+                                        <div>
+                                                <ul class="smrt_cursoName">
+                                                        <strong><li><span>{curso}</span></li></strong>
+                                                </ul>
+                                        </div>
+                                <div>                                                
+                                                <p class="col-md-12 smrt_parrafo_cajaBase"> 
+                                                Queda atento a próximos cursos que cargaremos en tu perfil.
+                                                </p>
+                                                <p class="col-md-12 smrt_parrafo_cajaBase">
+                                                ¡Nos vemos! 
+                                                </p>
+                                </div>
+                        </div>
+                                <div class="smrt_boton_cajaBase">
+                                        <a href="{link}" target="_blank"  class="smrt_btn_color"><strong>Realizar E Learning</strong> 
+                                        </a>
+				</div>
+				
+				<div class="smrt_logo">
+						<img src="data:image/png;base64,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" alt="">
+				</div>
+					
+                                <div class="smrt_esquinaPop "></div>
+                </div>     
+        </div>
+</div>
+            
+        </body>
+</html>
+
+
+
+
+

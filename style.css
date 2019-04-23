@@ -1,0 +1,251 @@
+/* _______________________Generals Styles___________________ */
+
+/* _______________________ Area selector to view the parts of template ___________________ */
+
+/* ----------------------------------------------------------------- */ 
+.smrt_jumboTitule{
+
+    color: rgb(253, 253, 253);
+
+    max-width: 1000px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+    font-family: 'Lato', sans-serif;
+
+    font-size: 30px;
+    text-align: center;
+
+    /* -webkit-box-shadow: 7px 47px 59px 16px rgba(0,0,0,0.46);
+    -moz-box-shadow: 7px 47px 59px 16px rgba(0,0,0,0.46);
+    box-shadow: 7px 47px 59px 16px rgba(0,0,0,0.46); */
+}
+
+
+/* ____________________ Styles of the box container ______________ */
+
+.smrt_cajaBase{
+    max-width: 600px;
+    border-radius: 12px;
+    
+}
+
+.smrt_esquinaPop{
+    /* background: #ffffff; */
+    
+    position: absolute;
+    left: 70%;
+
+    border-top: 15px solid  rgb(255, 253, 253);
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+}
+/* _____________________________________________ */
+
+/* __________Color de alert_____________ */
+.smrt_colorAlert_green{
+    background: rgba(170,213,0,1);
+    background: -moz-linear-gradient(-45deg, rgba(170,213,0,1) 0%, rgba(170,213,0,1) 34%, rgba(143,202,0,1) 34%, rgba(143,202,0,1) 59%, rgba(143,202,0,1) 71%, rgba(143,202,0,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(170,213,0,1)), color-stop(34%, rgba(170,213,0,1)), color-stop(34%, rgba(143,202,0,1)), color-stop(59%, rgba(143,202,0,1)), color-stop(71%, rgba(143,202,0,1)), color-stop(100%, rgba(143,202,0,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(170,213,0,1) 0%, rgba(170,213,0,1) 34%, rgba(143,202,0,1) 34%, rgba(143,202,0,1) 59%, rgba(143,202,0,1) 71%, rgba(143,202,0,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(170,213,0,1) 0%, rgba(170,213,0,1) 34%, rgba(143,202,0,1) 34%, rgba(143,202,0,1) 59%, rgba(143,202,0,1) 71%, rgba(143,202,0,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(170,213,0,1) 0%, rgba(170,213,0,1) 34%, rgba(143,202,0,1) 34%, rgba(143,202,0,1) 59%, rgba(143,202,0,1) 71%, rgba(143,202,0,1) 100%);
+    background: linear-gradient(135deg, rgba(170,213,0,1) 0%, rgba(170,213,0,1) 34%, rgba(143,202,0,1) 34%, rgba(143,202,0,1) 59%, rgba(143,202,0,1) 71%, rgba(143,202,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aad500', endColorstr='#8fca00', GradientType=1 );
+}
+.smrt_colorAlert_red{
+    background: rgba(238,75,75,1);
+    background: -moz-linear-gradient(-45deg, rgba(238,75,75,1) 0%, rgba(238,75,75,1) 32%, rgba(228,2,45,1) 32%, rgba(228,2,45,1) 68%, rgba(228,2,45,1) 83%, rgba(228,2,45,1) 86%, rgba(228,2,45,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(238,75,75,1)), color-stop(32%, rgba(238,75,75,1)), color-stop(32%, rgba(228,2,45,1)), color-stop(68%, rgba(228,2,45,1)), color-stop(83%, rgba(228,2,45,1)), color-stop(86%, rgba(228,2,45,1)), color-stop(100%, rgba(228,2,45,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(238,75,75,1) 0%, rgba(238,75,75,1) 32%, rgba(228,2,45,1) 32%, rgba(228,2,45,1) 68%, rgba(228,2,45,1) 83%, rgba(228,2,45,1) 86%, rgba(228,2,45,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(238,75,75,1) 0%, rgba(238,75,75,1) 32%, rgba(228,2,45,1) 32%, rgba(228,2,45,1) 68%, rgba(228,2,45,1) 83%, rgba(228,2,45,1) 86%, rgba(228,2,45,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(238,75,75,1) 0%, rgba(238,75,75,1) 32%, rgba(228,2,45,1) 32%, rgba(228,2,45,1) 68%, rgba(228,2,45,1) 83%, rgba(228,2,45,1) 86%, rgba(228,2,45,1) 100%);
+    background: linear-gradient(135deg, rgba(238,75,75,1) 0%, rgba(238,75,75,1) 32%, rgba(228,2,45,1) 32%, rgba(228,2,45,1) 68%, rgba(228,2,45,1) 83%, rgba(228,2,45,1) 86%, rgba(228,2,45,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee4b4b', endColorstr='#e4022d', GradientType=1 );}
+
+/* ----------------------------------------------------------------- */
+
+/*  Segments of Alert */
+.smrt_segmento1{
+    /* background:red; */
+    /* min-width: 30px; */
+    /* border-radius: 12px 0px 0px 12px; */
+}
+
+.icono_cajaBase{
+    color: rgb(255, 253, 253);
+    font-size: 2.5em;
+    animation: move 0.8s alternate infinite;
+
+}
+
+.smrt_mensaje{
+    color:rgb(255, 253, 253);
+
+    margin-top: 2px;
+
+    font-size: 35px;
+    padding: 2px;
+    font-weight: 700;
+
+    /* animation: mymove 0.01s normal infinite; */
+}
+
+.titule2{
+    font-family: 'Lato', sans-serif;
+    background-color:rgb(255, 253, 253);
+    background: rgb(255, 253, 253);
+    min-height: 200px;
+    
+    border-radius: 0px 12px 12px 0px;
+}
+
+.smrt_ordena_titulo{
+    
+    margin-top:25px;
+    font-size: 19px;
+
+    margin-left: 10px;
+    margin-right: 10px; 
+    max-width: 330px;
+
+    text-align: center;
+}
+
+ /* muestra curso */
+.smrt_cursoName{
+    text-align: justify; 
+    line-height: 22px; 
+
+    max-width: 300px;
+
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+ul>strong>li{
+    color: #74b700;
+    font-size: 20px;
+}
+
+ul>strong>li>span{
+    color:black;
+    font-size: 16px;
+}
+
+
+/* Parrafo de segmento contenido mensaje de Alerta */
+.smrt_parrafo_cajaBase{
+    font-size: 14px;
+    line-height: 20px;
+    
+    min-width: 400px;
+
+    position: relative;
+    text-align: justify;
+}
+
+.smrt_esp{
+    margin-top:15px;
+}
+
+/* Boton de E-learning */
+.smrt_boton_cajaBase{
+    position: relative;
+    left: 28%;
+    
+    border-radius: 20px;
+
+    margin-bottom: 30px;
+    margin-top: 0px;
+
+}
+
+.smrt_btn_color{
+    background-color: #333333;
+    color: rgb(255, 253, 253);
+    border-style: none;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 12px;
+    
+    font-weight: 500;  
+}
+
+.smrt_btn_color:hover{
+    background-color: #888888;
+    text-decoration: none;
+    color: rgb(255, 253, 253);
+    /* box-shadow: 100px; */
+    
+}
+
+/* _______________ estilos del logotipo ______*/
+
+.smrt_logo{
+    position: absolute;
+    left:80%; bottom:10px;
+   
+}
+
+/* ______________Animations_____________________ */
+@keyframes move {
+    /* from {color: red translate: 20px;} */
+    from {transform: translate(-3px,0px);}
+    to { 
+        /* font-size: 2.55em; */
+        /* transform: rotate(2deg); */
+        transform: translate(8px,0px);
+    }
+  }
+
+  @keyframes moveRed {
+    from {transform: rotate(-5deg);}
+    to { 
+        /* font-size: 35.5px; */
+        transform: rotate(5deg);
+    }
+  }
+
+  .moveRotate{
+    animation: moveRed 0.5s alternate infinite;
+}
+
+.smrt_container{
+
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    min-width:992px!important;
+}
+
+
+
+
+@media (min-width: 576px) {
+    .smrt_container {
+      max-width: 540px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .smrt_container {
+      max-width: 720px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .smrt_container {
+      max-width: 960px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .smrt_container {
+      max-width: 1140px;
+    }
+  }
